@@ -1,0 +1,132 @@
+% !TEX TS-program = lualatex
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fontawesome}
+\pagenumbering{gobble}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Daniel}{Kent}
+{ \urlstyle{same}  Columbus, Ohio \\
+	\href{mailto:kent.249@osu.edu}{\faEnvelope \hspace{0.1em} kent.249@osu.edu} |
+	\faMobilePhone \hspace{0.1em} 925.818.9866 |
+	\href{http://dnkent.github.io}{\faGlobe \hspace{0.1em} dnkent.github.io}
+|  \href{https://github.com/dnkent}{\faGithub \hspace{0.1em} dnkent} |
+\href{https://www.linkedin.com/in/dnkent/}{\faLinkedinSquare \hspace{0.1em} dnkent}
+}
+
+% Summary Statement
+
+%\vspace{1em}
+%\centering{\large{Ph.D. Candidate -- graduating in August 2020 -- specializing in data science and computational social science, with over 5 years of experience in leading collaborative research teams and projects on machine learning, quantitative research and analysis, statistical software development, and data visualization. }}
+
+%}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+
+\vspace{-0.6em}
+\section{Skills}
+\runsubsection{Software} \size{11}{R (5+ years) \textbullet{}  Python (3+ years) \textbullet{} SQL (MySQL) \textbullet{} Git \textbullet{} Unix  \textbullet{}  \LaTeX\ \textbullet{}Julia   \textbullet{} JavaScript (D3.JS)}
+\sectionsep
+\vspace{-0.2em}
+\runsubsection{Quantitative} \size{11}{Machine Learning \textbullet{} Social Network Analysis  \textbullet{} Causal Inference  \textbullet{} Time Series Analysis \textbullet{} Bayesian Inference \textbullet{} Natural Language Processing  \textbullet{} Generalized Linear Models \textbullet{} Probability Theory} %\textbullet{} Experimental Design
+\sectionsep
+\vspace{-0.2em}
+\runsubsection{Platforms} \size{11}{Google Cloud Platform \textbullet{} Amazon Web Services \textbullet{} Cluster Computing  \textbullet{} Linux}
+\sectionsep
+
+
+\section{Experience}
+\vspace{-0.25em}
+\runsubsection{The Ohio State University} \hspace{4.05in} \location{Columbus, OH}
+
+\descript{PH.D. Candidate, Political Science} \hspace{3.05in} \location{August 2015 -- Present}
+%\vspace{-1em}
+\italicfontThin{Dissertation:} \italicfont{Supervised and Unsupervised Models of International Conflict and Revision}
+
+\begin{tightemize}
+    %\item Dissertation: \italicfont{Supervised and Unsupervised Models of International Conflict and Revision}
+    \item Built machine learning ensembles in R with 800,000+ observations to forecast the onset of international conflict 
+    \item Developed a novel dataset with 15,974 estimates of every country's international standing from 1816-2012
+    \item Programmed computational model in Python, simulating exclusion across complex social systems
+%\item Organized speaker series.
+\end{tightemize}
+\sectionsep
+
+\descript{Graduate Research Associate} \hspace{3.375in} \location{August 2018 -- Present}
+\vspace{-1em}
+\begin{tightemize}
+    \item Estimated social networks of over 400,000 Cold War bureaucrats by classifying matching archival record entries %through text-as-data methods
+    %\item Inferred network ties by applying text-as-data methods to German archival records
+    \item Designed method to forecast civil wars (1945-2012), monitoring XGBoost features for anomalies
+    \item Wrote R package, \texttt{\href{http://github.com/dnkent/dynamr}{dynamr}}, returning 20\% increase in changepoint detection accuracy over alternative software
+    \item Led collaborative research teams, coordinating with members across multiple countries and states % return to
+    \item Awarded \$16,000 National Science Foundation-funded grant for nationally-representative survey experiment % return to
+\end{tightemize}
+\sectionsep
+
+
+\descript{Graduate Teaching Associate} \hspace{4.275in} \location{July 2019}
+\vspace{-1em}
+\begin{tightemize}
+    \item Taught graduate-level mathematics course for 15 incoming Ph.D. students, with an emphasis on applied statistics
+    \item Lectured on calculus (derivatives, integrals, and multivariate), linear algebra, and set notation
+    %\item Mentored cohort of first-year Ph.D. students during their transition into graduate school
+    \item Compiled custom 50-page math notebook for student reference during subsequent statistics sequence % return to
+\end{tightemize}
+\sectionsep
+
+
+\descript{\href{https://polisci.osu.edu/research/prism}{Junior PRISM Fellow}}
+\hspace{4in} \location{July 2017 -- August 2018}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{-1em}
+\begin{tightemize}
+\item Served in faculty-awarded position, held by one graduate student each year based on coursework performance
+\item Provided statistics consulting for faculty and students, solving data, programming, and modeling problems
+%\item Served as a research consultant, helping faculty and students tackle computational and modeling problems
+\item Planned and led data science training workshops and spearheaded guest social science lecture visits
+%\item Organized speaker series.
+\end{tightemize}
+\sectionsep
+
+
+\section{Research} % Add website urls
+
+\renewcommand\refname{\vskip -0.75cm}
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education} 
+
+\runsubsection{The Ohio State University} \hspace{4.05in} \location{Columbus, OH}
+\descript{PH.D., Political Science} \location{(Focus on Computational Social Science)}
+\hspace{0.9in} \location{(Expected) August 2020}
+\descript{M.A., Political Science} \hspace{4.9in} \location{May 2017}
+\sectionsep
+
+\runsubsection{University of California, Davis} \hspace{3.95in} \location{Davis, CA} 
+\descript{B.A., International Relations} \location{(Highest Honors)} \hspace{3.1in} \location{June 2013}
+\end{flushleft}
+
+\end{document}  \documentclass[]{article}
